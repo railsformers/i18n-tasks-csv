@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
   end
 
   if s.respond_to? :add_runtime_dependency then
-    s.add_runtime_dependency(%q<i18n-tasks>.freeze, ["~> 0.9"])
+    s.add_runtime_dependency(%q<i18n-tasks>.freeze, ["~> 1.0"])
     s.add_development_dependency(%q<minitest>.freeze, ["~> 5.16"])
     s.add_development_dependency(%q<hoe-doofus>.freeze, ["~> 1.0"])
     s.add_development_dependency(%q<hoe-gemspec2>.freeze, ["~> 1.1"])
@@ -36,7 +36,7 @@ Gem::Specification.new do |s|
     s.add_development_dependency(%q<rdoc>.freeze, [">= 4.0", "< 7"])
     s.add_development_dependency(%q<hoe>.freeze, ["~> 3.25"])
   else
-    s.add_dependency(%q<i18n-tasks>.freeze, ["~> 0.9"])
+    s.add_dependency(%q<i18n-tasks>.freeze, ["~> 1.0"])
     s.add_dependency(%q<minitest>.freeze, ["~> 5.16"])
     s.add_dependency(%q<hoe-doofus>.freeze, ["~> 1.0"])
     s.add_dependency(%q<hoe-gemspec2>.freeze, ["~> 1.1"])
